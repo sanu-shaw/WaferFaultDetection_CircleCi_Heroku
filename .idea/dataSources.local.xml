@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="flask_monitoringdashboard" uuid="2b0a8aa2-9c19-454f-ae3e-c250082498e2">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+  </component>
+</project>
