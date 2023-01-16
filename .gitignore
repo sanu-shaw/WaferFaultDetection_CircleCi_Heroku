@@ -1,3 +1,6 @@
 *.txt
 *.csv
 *.zip
+!requirements.txt
+!runtime.txt
+.idea/workspace.xml

@@ -96,11 +96,7 @@ workflows:
 ```
 
 
-## to create requirements.txt
 
-```buildoutcfg
-pip freeze>requirements.txt
-```
 
 
 
@@ -116,19 +112,19 @@ git remote add origin <github_url>
 git push -u origin main
 ```
 
+## to update the modification
+
+```
+git add .
+git commit -m "proper message"
+git push
+```
 
 
-## create a account at circle ci
-
-<a href="https://circleci.com/login/">Circle CI</a>
-
-## setup your project 
-
-<a href="https://app.circleci.com/projects/github/Avnish327030/setup/"> Setup project </a>
 
 
 
-## Select project setting in CircleCI and below environment variable
+##  project setting in CircleCI and below environment variable
 
 ```
 DOCKERHUB_USER
@@ -140,10 +136,3 @@ DOCKER_IMAGE_NAME=wafercircle3270303
 ```
 
 
-## to update the modification
-
-```
-git add .
-git commit -m "proper message"
-git push 
-```
